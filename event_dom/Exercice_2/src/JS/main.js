@@ -69,6 +69,7 @@ myButton3.addEventListener("click", () => {
     myButton4.textContent = "modifier le titre Exo 6";
     myButton4.addEventListener("click", () => {
         myButton4.style.color = "red";
+        h2.style.color = "red";
     })
 })
 
