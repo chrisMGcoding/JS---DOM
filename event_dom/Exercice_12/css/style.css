@@ -1,0 +1,42 @@
+.dropdown .bouton {
+    background-color: green;
+    color : white;
+    height: 75px;
+    width : 150px;
+    font-size : 1rem;
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor : pointer;
+}
+
+.dropdownButton {
+    display : none;
+    flex-direction : column;
+    width : 150px;
+}
+.dropdownButton a {
+    text-decoration: none;
+}
+
+/* slider */
+
+.slider {
+    display : flex;
+}
+
+.arrowLeft {
+    position : absolute;
+    padding-top : 14rem;
+}
+.arrowLeft img{
+    width: 50px;
+}
+.arrowRight {
+    position : absolute;
+    padding-top : 14rem;
+    left : 53rem;
+}
+.arrowRight img{
+    width: 50px;
+}
